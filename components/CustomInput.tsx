@@ -5,7 +5,7 @@ import cn from "clsx";
 
 
 const CustomInput = ({
-  placeholder = "Enter text",
+  placeholder,
   value,
   label,
   onChangeText,

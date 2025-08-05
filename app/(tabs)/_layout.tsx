@@ -4,7 +4,7 @@ import React from "react";
 export default function _Layout() {
   const isAuthenticated = false; 
 
-  if (!isAuthenticated) return <Redirect href="/sign-in" />;
+  if (!isAuthenticated) return <Redirect href="/signIn" />;
 
   return <Slot />; 
 }
